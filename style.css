@@ -193,12 +193,14 @@ hr {
 }
 .hourly-forecast .card {
     text-align: center;
+    height : 150px;
+    width : 150px;
 }
 
 /* RESPONSIVE DESIGN */
 
 /* Large tablets and smaller desktops */
-@media(max-width: 1100px){
+@media(max-width: 1500px){
     .weather-data {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -223,6 +225,10 @@ hr {
     }
     .hourly-forecast {
         grid-template-columns: repeat(6, 1fr);
+    }
+    .hourly-forecast .card{
+        height : 100px;
+        width : 80px;
     }
 }
 
